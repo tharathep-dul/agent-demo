@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #690ccd, #2f71e2);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            top: 0;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo span {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .icons button {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .avatar img {
+            width: 80px;
+            height: 80px;
+            margin-top: 20px;
+            border-radius: 50%;
+        }
+        .logo img {
+            width: 40px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="iAI.CENTER Logo">
+            <span>iAI.CENTER</span>
+        </div>
+        <div class="icons">
+            <button class="mute-btn" title="Mute"></button>
+        </div>
+    </header>
+    
+    <script
+    type="module"
+    src="https://agent.d-id.com/v1/index.js"
+    data-name="did-agent"
+    data-mode="fabio"
+    data-client-key="YXV0aDB8NjNjNjRjN2QzNTA5MTI1MTcxZDY2Y2EyOnFjdHN6VWxwNmVzdHl3NVpTaHRIWA=="
+    data-agent-id="agt_Pm7rqyTy"
+    data-monitor="true">
+    </script>
+</body>
+</html>
